@@ -1,6 +1,6 @@
 # Use the official Node.js image.
 # https://hub.docker.com/_/node
-FROM node:14-alpine
+FROM node:18-alpine
 
 # Create and change to the app directory.
 WORKDIR /opt/app
